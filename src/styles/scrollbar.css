@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+  width: 10px; 
+  height: 10px; 
+}
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--story-border-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--story-count-bg-color); 
+}
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+}

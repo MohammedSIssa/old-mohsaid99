@@ -1,0 +1,111 @@
+@media (max-width: 760px) {
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    color: var(--font-color);
+    background: linear-gradient(to bottom, var(--background-color), rgba(0,0,0,0));
+  }
+  .hidden-m {
+    display: none;
+  }
+  nav {
+    position: fixed;
+    bottom: -1px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 50px;
+    height: 50px;
+    max-height: 50px;
+    z-index: 999;
+    border-top: 1px solid var(--story-border-color);
+    padding: 0 !important;
+  }
+  nav .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  nav .nav-items ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row-reverse;
+    gap: 25%;
+  }
+  .nav-items ul li button img {
+    width: 25px;
+    height: 25px;
+  }
+  #posts {
+    margin-top: 60px;
+  }
+  #posts .post {
+    text-align: right;
+  }
+  #root {
+    width: 100dvw;
+    padding: 20px 0 !important;
+    padding-top: 50px !important;
+  }
+
+  #root section {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px 0 !important;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    padding: 10px;
+  }
+
+  #root img.long-image {
+    width: 100% !important;
+  }
+
+  #root section img {
+    width: 100% !important;
+    object-fit: cover;
+  }
+  main {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.4em !important;
+  }
+  h2 {
+      font-size: 1.2em !important;
+  }
+  h3 {
+      font-size: 1em !important;
+  }
+  h4 {
+      font-size: 0.8em !important;
+  }
+  h5 {
+    font-size: 0.6em !important;
+  }
+  h6 {
+    font-size: 0.4em !important;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  section ul {
+    padding: 0 !important;
+    margin: 0;
+    width: 100vw !important;
+  }
+  section ul li {
+    padding: 0 !important;
+  }
+}
